@@ -1,0 +1,25 @@
+{
+  "_nota": "Lista FECHADA de rodadas. A CLI so executa o que esta aqui; nao ha comando livre. Horas sao simuladas (cada lote 'custa' horas_por_lote). Dados sinteticos.",
+  "rodadas": {
+    "prazo-rapida": {
+      "descricao": "Risco de prazo de um projeto de implantacao (versao rapida)",
+      "maquina": "maquina-a",
+      "lotes": 20,
+      "horas_por_lote": 0.1,
+      "simulacoes_por_lote": 5000,
+      "semente": 11,
+      "corte_horas": 3.0,
+      "etapas": [[[2, 4, 8]], [[3, 5, 10], [2, 3, 6]], [[1, 2, 5]]]
+    },
+    "prazo-completa": {
+      "descricao": "Risco de prazo de um projeto de implantacao (versao completa)",
+      "maquina": "maquina-b",
+      "lotes": 40,
+      "horas_por_lote": 0.25,
+      "simulacoes_por_lote": 10000,
+      "semente": 23,
+      "corte_horas": 14.0,
+      "etapas": [[[2, 4, 8]], [[3, 5, 10], [2, 3, 6]], [[1, 2, 5]], [[2, 3, 7], [1, 2, 4]]]
+    }
+  }
+}

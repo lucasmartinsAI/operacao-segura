@@ -1,0 +1,9 @@
+{
+  "_nota": "Dados sinteticos. Moeda: creditos ficticios.",
+  "maquinas": {
+    "maquina-a": {"preco_hora": 4.0},
+    "maquina-b": {"preco_hora": 6.5}
+  },
+  "margem_minima_corte": 1.2,
+  "limite_sem_sinal_minutos": 10
+}
